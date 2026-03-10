@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Tecnológico - Tu Tienda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .product-card { transition: all 0.3s ease; }
+        .product-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1); }
+        .img-container { height: 200px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #f9fafb; }
+        .img-container img { max-height: 100%; width: auto; object-fit: contain; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-10 px-6 text-center shadow-xl">
+        <h1 class="text-4xl font-extrabold tracking-tight uppercase">Mi Tienda Tech</h1>
+        <p class="mt-2 text-blue-200 text-lg italic">Calidad y tecnología a tu alcance</p>
+        <div class="mt-4 inline-block bg-green-500 px-4 py-2 rounded-full text-sm font-bold">
+            <i class="fab fa-whatsapp mr-1"></i> Pedidos: 65689097
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/mD363f8d/Whats-App-Image-2026-03-10-at-17-50-15.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Kit Mouse & Teclado BT</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">120 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa el Kit Mouse y Teclado (120 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/sXv020S6/Whats-App-Image-2026-03-10-at-17-49-25.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Parlante Kimiso KMS-M11</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">75 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa el Parlante Kimiso (75 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/mDQrVp4P/Whats-App-Image-2026-03-10-at-17-46-10.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos Ewtto Pro</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">95 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos Ewtto (95 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/tCWKq2rW/Whats-App-Image-2026-03-10-at-17-42-47.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos P47</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">55 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos P47 (55 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/XqcST1T1/Whats-App-Image-2026-03-10-at-17-41-36-2.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos M10 TWS</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">55 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos M10 (55 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/7ZHvM4S2/Whats-App-Image-2026-03-10-at-17-41-36-1.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos Gamer M28</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">65 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos M28 (65 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/d0wV8m8d/Whats-App-Image-2026-03-10-at-17-41-36.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos Stereo 5.4</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">65 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos Stereo (65 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="img-container p-4"><img src="https://i.postimg.cc/7P7L0BPr/Whats-App-Image-2026-03-10-at-19-11-49.jpg"></div>
+                <div class="p-5 text-center">
+                    <h3 class="font-bold text-lg h-12 flex items-center justify-center">Audífonos Gamer X15</h3>
+                    <p class="text-2xl font-black text-blue-600 my-2">70 bs</p>
+                    <a href="https://wa.me/59165689097?text=Hola! Me interesa los Audífonos X15 (70 bs)" class="mt-4 block bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>Pedir Ahora
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 px-6 text-center">
+        <p class="text-white font-bold mb-2 uppercase">Tu Tienda Tech</p>
+        <p class="text-sm">Envíos directos a tu ubicación. Calidad garantizada.</p>
+        <p class="mt-4 text-xs">Desarrollado para facilitar tus compras 2026</p>
+    </footer>
+
+</body>
+</html>
